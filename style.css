@@ -41,7 +41,7 @@ nav {
 
 main {
     color: white;
-    height: 400px;
+    height: auto;
     background-color: rgba(220, 20, 60, 0.477);
     font-family: serif;
     text-align: center;
@@ -75,4 +75,6 @@ p {
     display: inline;
 }
 
-
+.over{
+    font-size: 20px;
+}
