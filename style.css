@@ -11,7 +11,7 @@ html {
 body {background-image: url("Anfield.jpg"); 
     background-position: right top;
     font-family: Arial, Helvetica, sans-serif;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 
 header {color:aliceblue ;
@@ -33,7 +33,7 @@ nav {
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
-    background-color: rgba(220, 20, 60, 0.477);
+    background-color: rgba(245, 245, 245, 0.477);
     height:40px;
    
 }
@@ -57,8 +57,8 @@ main {
 
 footer {
     color: white;
-    height: 400px;
-    background-color: rgba(220, 20, 60, 0.477);
+    height: 200px;
+    background-color: rgba(7, 7, 7, 0.708);
     font-family: serif;
     text-align:left;
     font-size: 10px;
@@ -78,3 +78,10 @@ p {
 .over{
     font-size: 20px;
 }
+a {
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: inherit;
+    background-color: transparent;
+    
+  }
