@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-   
+   <title>LFC</title>
    
     
 </head>
@@ -17,6 +17,7 @@
 </nav>
 
 <main>
+    <div class="inside">
     <h2><U>Squad:</h2></U>
     <label class="over">Goalkeeper</label><ul></ul>
        <li> 13 	Adrián 	[Spain] 	Spain 	03/01/1987</li>
@@ -79,25 +80,30 @@
      </P>
      <br>
      <br>
-     <br>
-     <hr>
-     <label class="over">Favourite all time player?</label><ul></ul>
      
+    </div>
+     <hr>
+     
+     <div class="inside">
+     <label class="over">Favourite all time player?</label><ul></ul>
+     <form>
      <label>Still active?</label>
      <!-- <input type="Checkbox" name="Yes" /> Yes<br>
     <input type="Checkbox" name="Yes" /> No -->
     <input type="radio" name="Radio" /> Yes
     <input type="radio" name="Radio" /> No<br>
-    <label for="firstname" > First Name: <br>
-        <input type="text" name="firstname"> <br>
-        <label for="lastname" > Last Name: <br>
-            <input type="text" name="firstname"> <br>
+    
+        <input type="text" name="firstname" placeholder="First Name:"> <br>
+        <input type="text" name="lastname" placeholder="Last Name:"><br>
+            
             <form action="/action_page.php">
                 <label for="birthday">Date of birth:</label>
                 <br>
                 <input type="date" id="birthday" name="birthday">
                 <input type="submit">
-              </form>        
+              </form> 
+              <br>  
+            </div>     
 </main>
 
 <footer><br>
