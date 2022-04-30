@@ -104,3 +104,16 @@ a {
   table{
       margin-left: 110px;
   }
+
+  .fav{
+      height:50px;
+      width: 200px;
+      border: 2px solid black;
+      border-radius: 2%;
+      background-color: azure;
+      size: 50px;
+  }
+
+  ol{
+      position: center;
+  }
